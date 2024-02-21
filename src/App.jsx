@@ -12,7 +12,7 @@ import './App.css';
 
 function App() {
     return (
-        <Router basename={`/example_Two/`}>
+        <Router basename={`/example_Two`}>
             <MyNav />
             <Routes>
                 <Route path='' element={<Home />} />
