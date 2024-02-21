@@ -1,4 +1,3 @@
-import {useState} from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import MyNav from './components/Navbar';
 import {
@@ -15,7 +14,7 @@ function App() {
         <Router>
             <MyNav />
             <Routes>
-                <Route path='' element={<Home />} />
+                <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/portfolio' element={<ProjectGallery />} />
                 <Route path='/contact' element={<Contact />} />
